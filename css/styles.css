@@ -136,3 +136,19 @@ nav a {
 .badge { display: inline; } 
 .event-card { display: block; }
 
+/* Bootstrap contact card */
+.contact-card {
+    margin: 20px 0;
+}
+
+/* Font Awesome contact icons */
+.contact-card i {
+    margin: 0 5px;
+}
+
+/* Framed map */
+.map-container {
+    border: 3px solid #333;
+    padding: 5px;
+    margin: 20px 0;
+}
