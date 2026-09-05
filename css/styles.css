@@ -152,3 +152,14 @@ nav a {
     padding: 5px;
     margin: 20px 0;
 }
+
+/* Pseudo-class: changes the navigation link when the mouse is over it */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Attribute selector: highlights required form fields */
+input[required],
+textarea[required] {
+    border-left: 3px solid #333;
+}
